@@ -6,6 +6,6 @@ import "./register_units.sol";
 import "./identifier_units.sol";
 
 /// @dev システムを実行するコントラクト
-contract RunSystem is RegisterUnits, IdentifierUnits {
+contract RunSystem is RegisterUnits, RecipientUnits {
     
 }
